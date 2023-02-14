@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">compose_test</string>
+    <string name="billsText">Bills</string>
+    <string name="mobile">Mobile</string>
+    <string name="checkout">Checkout</string>
+    <string name="bill_summary">Bill Summary</string>
+    <string name="international">International</string>
+    <string name="search_result">Search Result</string>
+</resources>
