@@ -1,4 +1,4 @@
-package com.compose_test
+package com.compose_test.international_Screen
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -18,6 +18,9 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.compose_test.CustomText
+import com.compose_test.R
+import com.compose_test.navigation.Screens
 import com.compose_test.ui.widgets.CustomTopBar
 
 var icCountryChecked by mutableStateOf(0)

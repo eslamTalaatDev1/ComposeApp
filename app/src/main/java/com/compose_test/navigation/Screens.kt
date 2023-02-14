@@ -1,4 +1,4 @@
-package com.compose_test
+package com.compose_test.navigation
 
 sealed class Screens(var route:String){
     object MainActivity : Screens(route = "MainScreen")

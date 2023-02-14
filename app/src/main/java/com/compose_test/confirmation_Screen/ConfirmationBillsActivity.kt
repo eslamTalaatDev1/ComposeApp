@@ -1,4 +1,4 @@
-package com.compose_test
+package com.compose_test.confirmation_Screen
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -26,6 +26,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.compose_test.CustomText
+import com.compose_test.R
+import com.compose_test.navigation.Screens
 import com.compose_test.ui.widgets.CustomTopBar
 
 var cvv by mutableStateOf("")

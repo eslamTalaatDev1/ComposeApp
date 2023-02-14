@@ -1,7 +1,6 @@
 package com.compose_test
 
 import androidx.compose.foundation.layout.absolutePadding
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

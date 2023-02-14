@@ -4,7 +4,12 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
+import com.compose_test.allbills.AllBills
+import com.compose_test.confirmation_Screen.BillsConfirmation
+import com.compose_test.international_Screen.InternationalBillsScreen
+import com.compose_test.navigation.Screens
+import com.compose_test.receipt.ReceiptScreen
+import com.compose_test.search.SearchScreen
 
 
 @Composable

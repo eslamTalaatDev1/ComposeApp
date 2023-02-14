@@ -1,4 +1,4 @@
-package com.compose_test
+package com.compose_test.receipt
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -8,8 +8,6 @@ import androidx.compose.foundation.layout.*
  import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -17,10 +15,11 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.compose_test.CustomText
+import com.compose_test.R
 import com.compose_test.ui.widgets.CustomTopBar
 
 @Composable
@@ -171,11 +170,11 @@ fun ReceiptBottomBar(){
            )
        )
        .height(100.dp), verticalAlignment = Alignment.CenterVertically){
-       singleBottomBarItem("Email",R.drawable.mail_bills)
-       singleBottomBarItem("Invoice",R.drawable.invoice)
-       singleBottomBarItem("Repeat",R.drawable.repeat)
-       singleBottomBarItem("Split",R.drawable.splite)
-       singleBottomBarItem("Instalment",R.drawable.instalment)
+       singleBottomBarItem("Email", R.drawable.mail_bills)
+       singleBottomBarItem("Invoice", R.drawable.invoice)
+       singleBottomBarItem("Repeat", R.drawable.repeat)
+       singleBottomBarItem("Split", R.drawable.splite)
+       singleBottomBarItem("Instalment", R.drawable.instalment)
    }
 
 }
@@ -184,7 +183,7 @@ fun ReceiptBottomBar(){
 fun singleBottomBarItem(text:String,image:Int){
     Card(
         shape = RoundedCornerShape(dimensionResource(id = com.intuit.sdp.R.dimen._4sdp)),
-        border = BorderStroke(0.dp, color = colorResource(id =R.color.white )),
+        border = BorderStroke(0.dp, color = colorResource(id = R.color.white)),
         modifier = Modifier
             .width(dimensionResource(id = com.intuit.sdp.R.dimen._55sdp))
             .height(dimensionResource(id = com.intuit.sdp.R.dimen._55sdp))
